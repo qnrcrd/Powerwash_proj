@@ -8,7 +8,7 @@ actor "СМС шлюз" as SMS
 actor "Платёжная система" as PaymentSystem
 actor "1С система" as System1C
 
-rectangle "Система автомойки CarWasher" {
+rectangle "Система автомойки CarWash" {
   usecase "US_AD1: Регистрация пользователя" as UC1
   usecase "Подтверждение номера телефона" as UC2
   usecase "Ошибка подтверждения номера" as UC21
